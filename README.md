@@ -1,4 +1,2 @@
 # jenkinsTest
-a
-
-a
+1
