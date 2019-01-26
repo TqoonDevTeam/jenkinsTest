@@ -1,12 +1,3 @@
-pipeline{
-  agent any
-  stages{
-    stage('Test'){
-      steps {
-        echo '======== env ========='
-        echo sh(returnStdout: true, script: 'env')
-        echo '======== /env ========='
-      }
-    }
-  }
-}
+@Library('tqoon-jenkins-shared-libray') _
+
+tqPipe.go();
